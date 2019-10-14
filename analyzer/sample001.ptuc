@@ -1,0 +1,37 @@
+(* 
+	Sample program 
+*)
+
+program example1;
+
+type foo=boolean;
+     string = array of char;
+     vector = array [3] of real;
+
+var j,i,x:integer;
+  
+procedure a(n:char;k:integer);  
+ 
+function b(c:char;l:integer):integer;
+
+begin
+        i:=10;
+        x:=0;
+        j:=i/2;
+
+        if j>3 then
+          writeString('Hello!\n'); 
+
+        while i>1 do
+		begin
+			x :=x+1;
+			i := i-1;
+                  
+		  writeInteger(x)
+		end;
+	writeString('\n');        
+       writeInteger(i);
+        writeString('\n')  
+        
+end.
+

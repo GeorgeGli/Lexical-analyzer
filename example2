@@ -1,0 +1,32 @@
+(* 
+	Sample program2
+*)
+
+program example2;
+
+type foo=boolean;
+     string = array of char;
+     vec = array [10] of integer;
+
+var i,x:integer;
+  
+
+begin
+        i:=10;
+       
+
+        if i<=3 then  
+        x:=15
+        else
+        x:=i/2;
+
+        writeString('Heyyyy!!\n');
+	
+	
+        writeInteger(x);
+       
+        writeString('\n')  
+         
+        
+end.
+
